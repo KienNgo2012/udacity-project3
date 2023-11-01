@@ -4,7 +4,7 @@ app_dir = os.path.abspath(os.path.dirname(__file__))
 
 class BaseConfig:
     DEBUG = True
-    POSTGRES_URL="project3-kiennt-sever.postgres.database.azure.com"  #TODO: Update value #DONE
+    POSTGRES_URL="project3kienntdbsever.postgres.database.azure.com"  #TODO: Update value #DONE
     POSTGRES_USER="project3kiennt" #TODO: Update value #DONE
     POSTGRES_PW="Kazoku1:d"   #TODO: Update value #DONE
     POSTGRES_DB="techconfdb"   #TODO: Update value #DONE
